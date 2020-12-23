@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+min-height: 100vh;
+min-width: 100vw;
+background-image: url('../images/weddingbg2.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.header{
+    position:absolute;
+    top: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+}
