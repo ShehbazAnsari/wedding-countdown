@@ -12,12 +12,16 @@ background-image: url('../images/weddingbg2.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+overflow: hidden;
 }
 .container{
 display: flex;
 justify-content: center;
 align-items: center;
 
+}
+.text-brown{
+    color: 	#D2691E;
 }
 .header{
     position:absolute;

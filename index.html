@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/dist/sakura.css" />
+
     <title>Saba Wedding</title>
 </head>
 
@@ -19,11 +21,12 @@
 
     <div class="container">
         <div class="header">
-            <h4 class="text-center animated bounceInDown">Dr. <span class="text-success">Saba</span> <span
-                    class="text-danger">&</span> Dr. <span class="text-success">Faiyaz</span></h4>
-            <h5 class="text-center animated rubberBand">Janauary <span class="h4 text-success">4</span></h5>
-            <h2 class="text-center animated wobble">20<span class="text-success">21</span></h2>
-            <p class="text-center lead animated rubberBand">Countdown to our <span class="text-success">Big Day!!</span>
+            <h4 class="text-center animated bounceInDown">Dr. <span class="text-brown">Saba</span> & Dr. <span
+                    class="text-brown">Faiyaz</span>
+            </h4>
+            <h5 class="text-center animated rubberBand">Janauary <span class="h3 text-brown">4</span></h5>
+            <h2 class="text-center animated wobble">20<span class="text-brown">21</span></h2>
+            <p class="text-center lead animated rubberBand">Countdown to our <span class="text-brown">Big Day!!</span>
             </p>
         </div>
         <div class="main-body animated pulse">
@@ -36,8 +39,8 @@
 
             <div class="card  bg-transparent border-0">
                 <div class="card-body text-center">
-                    <p id="hour"></p>
-                    <span>Hours</span>
+                    <p id="hour" class="text-brown"></p>
+                    <span class="text-brown">Hours</span>
                 </div>
             </div>
 
@@ -50,8 +53,8 @@
 
             <div class="card  bg-transparent border-0">
                 <div class="card-body text-center">
-                    <p id="second" class="text-success"></p>
-                    <span class="text-success">Seconds</span>
+                    <p id="second" class="text-brown"></p>
+                    <span class="text-brown">Seconds</span>
                 </div>
             </div>
         </div>
@@ -61,8 +64,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 
-
-    <script src="./assets//js/countdown.js" defer></script>
+    <script src="./assets/js/countdown.js" defer></script>
+    <script src="./assets/dist/sakura.js" text="text/javascript"></script>
+    <script>
+        var sakura = new Sakura('body', {
+            colors: [
+                {
+                    gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+                    gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+                    gradientColorDegree: 120,
+                },
+                {
+                    gradientColorStart: 'rgba(255,189,189)',
+                    gradientColorEnd: 'rgba(227,170,181)',
+                    gradientColorDegree: 120,
+                },
+                {
+                    gradientColorStart: 'rgba(212,152,163)',
+                    gradientColorEnd: 'rgba(242,185,196)',
+                    gradientColorDegree: 120,
+                },
+            ],
+            delay: 100,
+        });
+    </script>
 </body>
 
 </html>
