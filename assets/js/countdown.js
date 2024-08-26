@@ -2,7 +2,7 @@
 //Important Notes -->> All the date are in second
 
 //Wedding Date
-const weddingDate = new Date('Jan 4, 2021 00:00:00').getTime()
+const weddingDate = new Date('Sep 21, 2024 00:00:00').getTime()
 
 //Passing All the values
 document.getElementById('day').innerHTML = `<div class="spinner-border text-warning" role="status">

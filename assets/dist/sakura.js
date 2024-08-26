@@ -25,11 +25,11 @@ var Sakura = function Sakura(selector, options) {
     // Classname of the petal. This corresponds with the css.
     fallSpeed: 1,
     // Speed factor in which the petal falls (higher is slower).
-    maxSize: 14,
+    maxSize: 15,
     // The maximum size of the petal.
     minSize: 10,
     // The minimum size of the petal.
-    delay: 300,
+    delay: 100,
     // Delay between petals.
     colors: [{
       // You can add multiple colors (chosen randomly) by adding elements to the array.
